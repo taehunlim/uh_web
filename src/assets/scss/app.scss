@@ -1,2 +1,19 @@
 @import "~bootstrap/scss/bootstrap";
+
+@import "abstracts/variables";
+@import "abstracts/mixins";
+
+@import "base/animations";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+@import "base/reset";
+
+@import "layout/header.scss";
+@import "layout/footer.scss";
+@import "layout/grid";
+
+
 @import "navigation.scss";
+@import "uh-slider";
+@import "button";

@@ -1,0 +1,18 @@
+.uh-button {
+  font-weight: 500;
+
+  display: inline-block;
+
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: $white;
+  border: 1px solid $black--two;
+  border-radius: 0;
+  background-color: $black--two;
+
+  &:hover {
+    color: $black--two !important;
+    background-color: transparent;
+  }
+}
